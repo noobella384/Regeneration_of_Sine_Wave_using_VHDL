@@ -9,7 +9,7 @@ The project is divided into three distinct tasks:
   -  SPI to DAC and multimeter
 * Regeneration of Sine Wave using ADC - DAC
 
-For more details on the problem statement, refer to the [Project Question Paper PDF](Project%20Question%20Paper).
+For more details on the problem statement, refer to the [Project Question Paper PDF](Project%20Question%20Paper.pdf).
 
 ## **Key Components**
 
