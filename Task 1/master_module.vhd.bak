@@ -1,0 +1,22 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith,all;
+use ieee.std_logic_unsigned.all;
+
+entity master_module is
+port(
+		initial_comm : in std_logic;
+		clk : in std_logic;
+		chip_select :out std_logic;
+		sclk : out std_logic;
+		mosi : out std_logic;
+		miso : in std_logic;
+		master_out : out std_logic_vector(2 downto 0)
+
+	);
+end entity;
+
+architecture archi_master_module of master_module is
+
+
+end architecture;
