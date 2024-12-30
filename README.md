@@ -25,13 +25,12 @@ For more details on the problem statement, refer to the [Project Question Paper 
 ### **Task 1** 
 Implement SPI communication between Master and Slave.<br>
 
-Files:
 
 
 ### **Task 2: ADC to DAC with LCD Display**
 In this task, we interface the MCP3008 ADC, MCP4921 DAC, and an LCD display with an FPGA to convert and visualize analog voltage values. The potentiometer (0-3.3V) provides the analog input to the MCP3008, which converts it into a 10-bit digital value relative to a 3.3V reference. The FPGA, acting as the SPI master, receives the ADC output via SPI communication, and the digital value is transferred to the MCP4921 DAC, which converts it back to analog. The FPGA also calculates the voltage from the ADC’s digital output and displays it on the LCD.<br>
 
-Files:
+
 
 
 ### **Task 3: Sine Wave Regeneration**
@@ -39,7 +38,7 @@ In this task, we reconstruct a sine wave by sampling it with the MCP3008 ADC, tr
 
 The FPGA then sends the stored data to the DAC via SPI, which reconstructs the sine wave in analog form. The regenerated sine wave is visualized on a Digital Storage Oscilloscope (DSO) to verify the accuracy of the reconstruction.<br>
 
-Files:
+
 
 
 ## Software Used 
